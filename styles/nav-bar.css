@@ -1,0 +1,23 @@
+.navigation-wrapper {
+    align-items: center;
+    background-color: #11122b;
+    color:#ffffe6;
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    height: 2.5rem;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+.navigation-wrapper > .nav-options{
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.navigation-wrapper > .nav-options a{
+    color: #ffffe6;
+    text-decoration: none;
+}

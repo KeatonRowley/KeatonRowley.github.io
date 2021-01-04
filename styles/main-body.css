@@ -1,0 +1,21 @@
+.main-body{
+    align-items: center;
+    color:  #11122b;
+    font-size: large;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.main-body > .main-articles{
+    padding: 60px 100px;
+}
+
+.main-body > .main-articles > .article {
+    padding: 40px 50px;
+}
+
+.main-body > .main-articles > .article a {
+    color: #11122b;
+    text-decoration: none;
+}
+

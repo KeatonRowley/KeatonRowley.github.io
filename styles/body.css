@@ -1,0 +1,8 @@
+/* Common styles */
+body{
+    background-color: #ffffe6;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    min-height: 100vh;
+    position: relative;
+}
