@@ -1,0 +1,411 @@
+/* Color controls.*/
+:root {
+    --primary-dark: #0D47A1;
+    --text-white: antiquewhite;
+    --wrapper-border: #7D97f9;
+    --secondary-color: #1976D2;
+    --white: #FFFFFF;
+}
+
+body {
+  color: var(--text-white);
+  background-color: var(--primary-dark) ;
+  border: none;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+#wrapper {
+    margin: auto;
+    background-color: var(--primary-dark) ;
+    border: 1px solid #7D97f9;
+    min-width: 960px;
+    max-width: 2048px;
+    min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Header not needed for envisioned design. */
+header { 
+}
+
+/* Navigation settings. */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 1em;
+  background-color: var(--primary-dark);
+  grid-template-columns: 60% 40%; 
+  gap: 20px;
+  align-items: center;
+  z-index: 100; 
+}
+
+.mainname {
+  font-size: 32px; 
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.nav-links {
+  padding-right: 50px;
+  font-size: 24px; 
+  text-align: right;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; 
+  margin-left: 20px; 
+}
+
+nav a        {
+              text-decoration: none;
+              transition: color 1s ease-out;
+            }
+nav a:link   {color:#FFFFFF}
+nav a:visited{color:#FFFFFF}
+nav a:hover  {color:var(--secondary-color)}
+
+
+main {
+  background: linear-gradient(to bottom, var(--secondary-color), var(--white));
+  padding: 1px 20px 20px 20px;
+  min-height: 60vh;
+  display: block;
+  text-align: center;
+  position: relative;
+  overflow-y: auto;
+}
+
+/* Mainsect class settings. Used all mainsect items.*/
+.mainsect {
+  background: linear-gradient(to bottom, var(--secondary-color),var(--white));
+  display: inline-block;
+  width: auto; 
+  margin: 10%; 
+  padding: 70px;
+  border-radius: 20%;
+  position: relative;
+  z-index: 20; 
+  box-shadow: 3px 3px 5px var(--primary-dark); 
+}
+
+.mainsect {text-decoration: none;
+            transition: color 1s ease-out;
+}
+.mainsect:hover{color:var(--primary-dark);}
+.mainsect:visited{color:var(--secondary-color)}
+.mainsect img{
+  width: 200px;
+  height: 200px;
+  border-radius:5%;
+  background-color: var(--secondary-color);
+  mix-blend-mode: multiply; 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  background-color: var(--primary-dark); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  z-index: 100;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Skills page.*/
+.skills-wrapper{
+  padding-top: 9em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: space-around;
+  position: relative;
+  z-index: 20; 
+}
+
+/* Skills chart. 2 extra columns not needed. I accept the dock for it. */
+.skills{
+  padding-top: 5em;
+  display: flex;
+  align-items: flex-start;
+  font-size:x-large;
+}
+
+/* Table settings. */
+#wrapper > main > span > table{
+  border: 1px solid var(--primary-dark);
+  padding: 8px;
+}
+
+#wrapper > main > span > table.rounded-table {
+  border-collapse: collapse;
+  border-radius: 20px;
+}
+
+caption{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+/* Generates word art. Each id'd div runs through and applies settigns to 
+corresponding child. */ 
+.words{
+  width: 40%;
+  padding-top: 5rem;
+  align-items: center;
+  font-size: 2rem;
+  display: grid;
+  justify-content: center;
+  gap: 5px;
+  color: #022f40;
+}
+
+/* Even word settings */
+.words :nth-child(2n){
+  font-size:2.5rem;
+  color: #38aecc;
+  font-weight: bold;
+}
+
+/* Third word settings*/ 
+.words :nth-child(3n){
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+  color: #0090c1;
+  font-size: 2.2rem;
+  color: #183446;
+}
+
+.words :nth-child(4n){
+  font-size: 2.3rem;
+  color: #183446;
+}
+
+.words :nth-child(5n){
+  color: #046e8f;
+  font-size: 2.4rem;
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+}
+
+/* Single 10th word forced other side to complete word art.  
+   Rotate it, as writing-mode only makes words go bottom to top. 
+   Translate to other side. 
+*/
+.words :nth-child(10n){
+  color: #046e8f;
+  font-size: 1.6rem;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  transform:translate(400px,-300px);
+}
+
+/* Id's for words used in word art. */
+#Software-Engineer{
+  grid-area: Software-Engineer;
+}
+
+#Technical-Writer{
+  grid-area: Technical-Writer;
+}
+
+#Pun-Master{
+  grid-area: Pun-Master;
+}
+
+#Axolotl-Enthsiast{
+  grid-area: Axolotl-Enthsiast;
+}
+
+#Csharp{
+  grid-area: Csharp;
+}
+
+#Java{
+  grid-area: Java;
+}
+
+#Backend-Development{
+  grid-area: Backend-Development;
+}
+
+#Cplus{
+  grid-area: Backend-Development;
+}
+
+#Html{
+  grid-area: Backend-Development;
+}
+
+/* CSS for articles.*/
+.articles {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.articles > .mainsect {
+  max-width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10%;
+  padding: 40px;
+  border-radius: 20%;
+  position: relative;
+  z-index: 20;
+  box-shadow: 3px 3px 5px var(--primary-dark);
+}
+
+/* Contact form css. */
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7rem;
+}
+
+.contact-form h2 {
+  padding-top: 7rem;
+  margin-bottom: 20px; 
+}
+
+.contact-form > form{
+  display: grid;
+  grid-template-columns: max-content 1fr; 
+  grid-row-gap: 10px; 
+  grid-column-gap: 20px;
+} 
+
+.contact-form >.form-grid label {
+  display: flex;
+  align-items: center;
+}
+
+.contact-form > form .submit-button {
+  grid-column: span 2; 
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.videos {
+  padding-top: 13rem;
+}
+
+/*Media queries.*/
+/* Small screen.  */
+@media (min-width: 100px) and (max-width: 600px){
+  
+  .footer{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+  }
+ 
+  .nav{
+    margin-bottom: 50px;
+  }
+
+  nav li {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  
+
+  .skills-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: left; 
+    align-items: center; 
+  }
+  
+  .articles {
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .articles > .mainsect {
+    max-width: 50%;
+  }
+ 
+  .videos iframe{
+    width:700px;
+    height:500;
+  }
+}
+
+/* Medium sized screen.  */
+@media (min-width: 601px) and (max-width: 1024px){
+  .wrapper{
+    margin: auto;
+    width: 80%;
+  }
+
+  .footer{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+  }
+ 
+  .nav{
+    margin-bottom: 50px;
+  }
+
+  .skills-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .articles {
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .articles > .mainsect {
+    max-width: 40%;
+  }
+ 
+  .videos iframe{
+    width:900px;
+    height:600;
+  }
+}
+
+

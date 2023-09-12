@@ -1,0 +1,51 @@
+
+Your Guide to Developing an Amazing Final Project
+YOUR PROJECT
+Your project is to create a 5-page website, coded by hand using your text editor. The topic is your choice so select something you are really interested in and willing to spend 20-30 hours working on to demonstrate your proficiency with HTML & CSS! Don’t overthink your topic selection. Anything will work!
+
+YOUR GOALS
+Once you decide on your topic, you’ll need to start thinking about the goal of your site. What do you want to accomplish? In order to accomplish your goal, what information/content/features do you need to include on your site? Start with a paper and pencil and sketch your five pages. Take some serious time doing this. It will help!
+
+
+THE HOMEPAGE DESIGN (An Example)
+The first page you sketch should be your homepage. The homepage is critical to the success of the site. Within a few seconds, the user should be able to figure out what the site is about. After a few more seconds, something should catch their eye that guide them to the next step in engagement. What do you want them to do? This is the “call-to-action” and you should make it obvious. Do they have to go through a few steps to get to the result? If so, guide them to the next logical step. For example, if I am creating a site about an organization and the goal of my site is to raise user interest enough to initiate contact in an effort to explore joining the organization, I will have the main “call-to-action” in the header of my page (on every page) and it would be something like “Email us with your questions” or “Set-up an appointment” or “Call Us Now”. I assume they’ll need to go through a few more steps before they initiate contact. I will need to raise their interest and build their trust. On the homepage, I would put key facts (bullets) about the organization and what we do and then, within the page’s content, provide a link to some version of an about us page that provides more detailed information and perhaps a video. Next, I would assume they might want to see examples of some projects and I would guide them to the projects page. Perhaps some testimonials from current members or other community members who have been positively impacted by the organization. I could continue the process, thinking carefully about what I want the user to experience and accomplish on my site. You should do the same! After sketching the five pages, decide on file names for each page. The homepage must be named final.html. Your other four pages should have similar file names, following the naming conventions we’ve used in this class (all lowercase, no spaces or special characters, meaningful yet short). 
+BUILDING YOUR SITE
+Next, it is time to create your final.html and final.css files. Use your class projects as guides, but make sure your work is original! Your homepage is the most challenging part of this project yet the most important to get right! Once you create your homepage, the remaining pages are merely copies of the homepage with different content! 
+Good file management is essential. Create a folder named “final” to store all files associated with your final project. Make sure your html files, css file, images, and video are located in this folder. When you are developing your site, you will zip your final folder and upload to the server. This is the same process you have been using to complete your case studies. 
+Really important note: Don’t include anything beyond markup and design (no scripting/database interaction/widgets/ ect) - that’s another course!
+
+
+SUBMITTING YOUR FINAL PROJECT and SELF-ASSESSMENT
+The homepage is the foundation of your site. You have your header, navigation, page structure, and goals defined. Next, take your final.html final and use “Save As” to create a copy of the final with a different name. Edit the content and do this 3 more times! I do have requirements you must include in your final project (but I’m sure you were expecting this) so, again, pay attention to the technical requirements and the grading rubric. 
+As part of the submission process, you will need to answer several self-assessment questions. Spend some time on these questions (you do earn points for these answers). They will help ensure you are on the right track, have included everything you need to include, and give you an opportunity to clarify elements of your projects and provide any additional information I may need to know when assessing your work. It also shows me you are able to assess your own work! You can log in and out in Blackboard, so access early. You can only submit once. 
+
+
+Final Project Technical Requirements (in addition to homepage requirements)
+Semantic markup tags (minimum of <header>, <nav>, <main>, <footer>)
+*Liquid layout (not full width of screen - centered)
+
+Interactive navigation (unordered list styled with CSS using pseudo states)
+Title tags that are correct, unique, and valid HTML5
+Relevant and meaningful content
+Linked to the external style sheet (final.css) with element, id, and class selectors
+Two appropriate media queries for tablet and phone-sized viewports
+Appropriate meta viewport HTML tag
+Flexible images (2 minimum)
+Data table on any page (at least 4 x 4 – make sure the content is appropriate for a data table.)
+Links - one external link, and one fragment id
+Form with a minimum of five input elements (text, textarea, radio, checkbox, ect.)
+On the page with the form, including an embedded style sheet with the form styles
+A print style sheet named print.css 
+A video created by you for this project, uploaded to YouTube, and then embedded in your site
+
+
+ONE FINAL, YET VERY IMPORTANT, NOTE ON DOING YOUR OWN WORK
+I think learning how to create a voice on the web is a beneficial skill and I hope you find value in the time you have spent on this course. If you have completed the activities, asked questions when you needed help, implemented feedback when provided, and have done your own work… you will pass this course and have a personal project that you can be proud of at the end of the day. Please resist any thoughts of taking shortcuts on the final project. I need to assess your knowledge of HTML & CSS. In order to assess your knowledge, you have to provide me with your own work. Again, your own code in a text editor. If there is any indication of code generation/ plagiarism, there will be a point deduction of 40-70 points, depending on the severity of the issue. As part of the final project assessment, you may be required to complete a final project interview.  I love grading these projects. I don’t expect the next Amazon website, but I do expect a simple, professional, accessible, web application developed by you on a topic that you care about and want to share with the world!
+
+
+HAVE FUN! 
+
+
+
+
+

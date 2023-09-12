@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Me</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Form page that allows people to send me contact information / messages.">
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="./final.css">
+    <link rel="stylesheet" href="./dot.css">
+</head>
+
+<body>
+<div id="wrapper">
+    <header></header>
+    <nav>
+        <div class="mainname"><a href="final.html"><h3>Keaton Rowley</h3></a></div>
+        <div class="nav-links">
+            <ul>    
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contactme.html">Contact Me</a></li>
+                <li><a href="demos.html">Demos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>   
+        </div>
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="https://webdevbasics.net/scripts/pacific.php" method="post" width="5em">
+                <!-- First name -->
+                <label for="myFName">Name:</label>
+                <input type="text" id="name" name="name" style="width:100%;" >
+                <!-- Company Name -->
+                <label for="myFName">Company Name:</label>
+                <input type="text" id="name" name="name" style="width:100%;">
+                <!-- Email -->
+                <label for="email">*Email:</label>
+                <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="Email" style="width:100%;" required>
+                <!-- Phone number -->
+                <label for="phone">Phone Number:</label>
+                <input type="phone" id="phone" name="Phone" maxlength="12"style="width:100%;" >
+                <!-- Allows user comments. -->
+                <label for="myComments">*Comments:</label>
+                <textarea type="text" id="myComments" name="Comments" rows="2" cols="30" style="width:100%;" required></textarea>
+                <!-- Submit button -->
+                <div class="submit-button">
+                    <input value="Submit" type="submit" name="Submit" id="submit" value="Submit">
+                </div>
+            </form>
+            <p>Required fields are marked with an asterisk *</p>
+        </div>
+    </main>
+
+    <footer>
+        <small><i>Copyright © 2023 | Keaton Rowley</i></small> <br>
+    </footer>
+</div>
+</body>
+
+
+
+</html>
